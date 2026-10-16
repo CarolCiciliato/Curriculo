@@ -1,302 +1,24 @@
 <!DOCTYPE html>
-<!-- saved from url=(0105)file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html -->
 <html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Carol Ciciliato  Apresentação Executiva</title>
-<style>
-:root{
-  --navy:#0A2540;--navy-deep:#061a34;--navy-soft:#132f52;--ink:#13233b;
-  --coral:#D04A02;--green:#21C685;--red:#E63946;--gold:#E8B84A;
-  --line:#E5E9EF;--fog:#F5F7FA;--white:#FFFFFF;--muted:#667085;
-  --shadow:0 12px 32px rgba(10,37,64,.06);
-  --shadow-lg:0 24px 60px rgba(10,37,64,.10);
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Inter,"Segoe UI",-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
-.container{max-width:1200px;margin-inline:auto;padding:0 32px}
-section{padding:100px 0}
-img{max-width:100%;display:block}
-
-header.top{position:sticky;top:0;z-index:80;height:68px;background:rgba(255,255,255,.9);backdrop-filter:saturate(160%) blur(14px);-webkit-backdrop-filter:saturate(160%) blur(14px);border-bottom:1px solid var(--line)}
-header.top .inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1200px;margin-inline:auto;padding:0 32px}
-.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.01em;color:var(--navy);font-size:1rem}
-.brand-dots{display:inline-flex;gap:4px}
-.brand-dots i{width:7px;height:7px;border-radius:50%;display:inline-block}
-.brand-dots i:nth-child(1){background:var(--coral)}
-.brand-dots i:nth-child(2){background:var(--green)}
-.brand-dots i:nth-child(3){background:var(--gold)}
-nav.menu{display:flex;gap:2px;flex-wrap:wrap}
-nav.menu a{text-decoration:none;color:var(--ink);font-size:.76rem;font-weight:600;padding:8px 12px;border-radius:999px;transition:background .18s ease, color .18s ease}
-nav.menu a:hover{background:var(--navy);color:#fff}
-nav.menu a .num{color:var(--coral);font-weight:800;margin-right:6px}
-nav.menu a:hover .num{color:var(--gold)}
-@media(max-width:1080px){nav.menu{display:none}}
-
-h1.hero-title{font-family:"Playfair Display",Georgia,serif;font-size:clamp(3.4rem,6.4vw,5.5rem);font-weight:700;letter-spacing:-.04em;color:var(--navy);line-height:.98}
-h2.section-title{font-size:clamp(1.9rem,3.5vw,2.6rem);font-weight:750;letter-spacing:-.03em;color:var(--navy);line-height:1.08}
-.section-dark h2.section-title{color:#fff}
-h3{font-size:1.25rem;font-weight:700;letter-spacing:-.01em;color:var(--navy)}
-.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;color:var(--muted)}
-
-.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:56px;padding-bottom:22px;border-bottom:1px solid var(--line)}
-.section-dark .section-head{border-bottom-color:rgba(255,255,255,.14)}
-.section-head .left{flex:1;min-width:0}
-.section-head .kicker{display:inline-flex;align-items:center;gap:10px;color:var(--coral);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:800;margin-bottom:16px}
-.section-dark .section-head .kicker{color:var(--gold)}
-.section-head .kicker::before{content:"";width:26px;height:2px;background:currentColor;display:inline-block}
-.section-head .sub{margin-top:10px;color:var(--muted);font-size:.95rem;max-width:640px}
-.section-dark .section-head .sub{color:#a9b6cc}
-
-section.hero{padding:56px 0 96px;background:#fff}
-.hero-eyebrow{display:inline-block;padding:8px 16px;border:1px solid var(--line);border-radius:999px;text-transform:uppercase;letter-spacing:.22em;font-size:.68rem;font-weight:700;color:var(--navy);margin-bottom:32px}
-.hero-eyebrow .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin-right:10px;vertical-align:middle}
-.hero-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:64px;align-items:center}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:44px}}
-.hero-sub{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:clamp(1.15rem,1.7vw,1.45rem);color:var(--navy-soft);margin-top:28px;max-width:620px;line-height:1.4}
-.hero-copy{margin-top:22px;color:#3a4a63;font-size:1rem;line-height:1.65;max-width:580px}
-.hero-quote{margin-top:32px;padding:20px 26px;border-left:4px solid var(--coral);background:var(--fog);border-radius:0 10px 10px 0;font-family:"Playfair Display",Georgia,serif;font-style:italic;font-size:1.05rem;color:var(--navy);line-height:1.5;max-width:640px}
-.hero-photo{width:min(340px,100%);aspect-ratio:4/5;border-radius:24px;overflow:hidden;box-shadow:0 24px 60px rgba(10,37,64,.16);background:var(--fog);position:relative;margin-left:auto}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 15%;transform:scale(1.65);transform-origin:50% 12%}
-
-section.pilares{background:var(--fog)}
-.pilares-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:36px}
-@media(max-width:900px){.pilares-grid{grid-template-columns:repeat(2,1fr);gap:28px}}
-@media(max-width:520px){.pilares-grid{grid-template-columns:1fr}}
-.pilar{padding-top:16px;border-top:2px solid}
-.pilar.p1{border-color:var(--navy)}
-.pilar.p2{border-color:var(--green)}
-.pilar.p3{border-color:var(--coral)}
-.pilar.p4{border-color:var(--gold)}
-.pilar .n{font-family:"Playfair Display",serif;font-size:2rem;font-weight:700;color:var(--navy);line-height:1;margin-bottom:12px}
-.pilar .t{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;color:var(--navy);margin-bottom:12px}
-.pilar .d{color:#3a4a63;font-size:.95rem;line-height:1.55}
-
-section.jornada{background:#fff}
-.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;margin-bottom:64px}
-@media(max-width:820px){.kpi-row{grid-template-columns:repeat(2,1fr);gap:24px}}
-.kpi .num{font-family:"Playfair Display",Georgia,serif;font-size:clamp(2.3rem,3.8vw,3rem);font-weight:700;letter-spacing:-.03em;color:var(--navy);line-height:1}
-.kpi .num .plus{color:var(--coral)}
-.kpi .lbl{text-transform:uppercase;letter-spacing:.14em;font-size:.7rem;font-weight:700;color:var(--muted);margin-top:10px}
-.kpi .desc{margin-top:6px;font-size:.9rem;color:#3a4a63;line-height:1.4}
-.timeline-wrap{overflow-x:auto;padding-bottom:8px}
-.timeline-svg{min-width:1080px;width:100%;height:auto;display:block}
-
-/* Nota editorial · formação em curso */
-.edu-note{
-  margin-top:32px;
-  padding:18px 24px;
-  border-left:3px solid var(--green);
-  background:var(--fog);
-  border-radius:0 10px 10px 0;
-  display:flex;
-  align-items:center;
-  gap:18px;
-  flex-wrap:wrap;
-}
-.edu-note .edu-tag{
-  text-transform:uppercase;
-  letter-spacing:.18em;
-  font-size:.68rem;
-  font-weight:800;
-  color:var(--green);
-  background:rgba(33,198,133,.12);
-  padding:4px 10px;
-  border-radius:999px;
-  white-space:nowrap;
-}
-.edu-note .edu-txt{
-  font-size:.95rem;
-  color:var(--navy);
-  font-weight:600;
-  line-height:1.5;
-}
-.edu-note .edu-txt em{color:var(--muted);font-style:normal;font-weight:500}
-
-section.chapter{padding:88px 0}
-section.chapter.dark{background:var(--navy);color:#e9eef7}
-section.chapter.fog{background:var(--fog)}
-.ch-head{display:grid;grid-template-columns:88px 1fr;gap:28px;align-items:center;padding-bottom:32px;margin-bottom:40px;border-bottom:1px solid var(--line)}
-section.chapter.dark .ch-head{border-bottom-color:rgba(255,255,255,.14)}
-.ch-badge{width:72px;height:72px;border-radius:50%;background:var(--green);color:var(--navy);display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;box-shadow:0 8px 24px rgba(33,198,133,.22)}
-.ch-badge .cap{font-size:.55rem;letter-spacing:.16em;font-weight:800;opacity:.8;margin-bottom:4px}
-.ch-badge .n{font-size:1.4rem;font-weight:800;letter-spacing:-.02em}
-.ch-eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;color:var(--coral)}
-section.chapter.dark .ch-eyebrow{color:var(--gold)}
-.ch-title{margin-top:10px;font-size:clamp(1.9rem,3.6vw,2.4rem);font-weight:750;letter-spacing:-.03em;color:var(--navy);line-height:1.05}
-section.chapter.dark .ch-title{color:#fff}
-
-.ch-body{max-width:900px}
-.ch-body .lbl{text-transform:uppercase;letter-spacing:.18em;font-size:.7rem;font-weight:800;color:var(--muted);margin-bottom:14px;margin-top:32px}
-section.chapter.dark .ch-body .lbl{color:#8fa1c2}
-.ch-body p.aconteceu{font-size:1.02rem;color:#3a4a63;line-height:1.65}
-section.chapter.dark .ch-body p.aconteceu{color:#cfd7e6}
-.ch-body .quote{border-left:3px solid var(--green);padding:4px 0 4px 16px;font-style:italic;color:var(--navy);font-size:1rem;line-height:1.55;font-family:"Playfair Display",Georgia,serif}
-section.chapter.dark .ch-body .quote{color:#eaf2ff}
-.bridge{padding:20px 0 0;margin-top:28px;border-top:1px dashed var(--line);display:flex;align-items:center;gap:14px;color:var(--muted);font-size:.85rem;font-style:italic}
-section.chapter.dark .bridge{border-top-color:rgba(255,255,255,.14);color:#a9b6cc}
-.bridge::before{content:"→";color:var(--coral);font-style:normal;font-weight:800;font-size:1rem}
-section.chapter.dark .bridge::before{color:var(--gold)}
-
-.chips-block{margin-top:8px;padding:26px 28px;border-radius:14px}
-.chips-block.light{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
-.chips-block.dark{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.12)}
-.chips-block .lbl-head{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;margin-bottom:16px}
-.chips-block.light .lbl-head{color:var(--coral)}
-.chips-block.dark .lbl-head{color:var(--gold)}
-.chips{display:flex;flex-wrap:wrap;gap:9px}
-.chip{padding:7px 14px;border-radius:999px;font-size:.8rem;font-weight:700;letter-spacing:.01em;border:1.5px solid;transition:transform .15s ease}
-.chip:hover{transform:translateY(-1px)}
-.chips-block.light .chip.nv{background:var(--navy);color:#fff;border-color:var(--navy)}
-.chips-block.light .chip.gr{background:transparent;color:#0f7a54;border-color:var(--green)}
-.chips-block.light .chip.co{background:transparent;color:var(--coral);border-color:var(--coral)}
-.chips-block.dark .chip.nv{background:#0b2452;color:#fff;border-color:#3b5b8f}
-.chips-block.dark .chip.gr{background:transparent;color:#9BE800;border-color:var(--green)}
-.chips-block.dark .chip.co{background:transparent;color:#E8B84A;border-color:var(--gold)}
-
-.cases-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
-@media(max-width:960px){.cases-grid{grid-template-columns:1fr}}
-.case-card{border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:24px;background:rgba(255,255,255,.04);display:flex;flex-direction:column;gap:12px}
-.case-card .cat{text-transform:uppercase;letter-spacing:.18em;font-size:.66rem;font-weight:800;color:var(--gold)}
-.case-card h3{font-size:1.2rem;color:#fff}
-.case-card .desc{color:#cfd7e6;font-size:.9rem;line-height:1.5}
-.case-metrics{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:auto;padding-top:14px;border-top:1px dashed rgba(255,255,255,.14)}
-.case-metrics .m .v{font-family:"Playfair Display",serif;font-weight:700;font-size:1.3rem;color:#fff;line-height:1}
-.case-metrics .m .l{text-transform:uppercase;letter-spacing:.08em;font-size:.6rem;font-weight:700;color:#8fa1c2;margin-top:5px}
-
-.exec-table-wrap{margin-top:40px;padding:30px;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:rgba(255,255,255,.03)}
-.exec-table-wrap .head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:18px;flex-wrap:wrap}
-.exec-table-wrap h3{color:#fff;font-size:1.05rem}
-.exec-table-wrap .sub{color:#a9b6cc;font-size:.86rem;margin-top:4px}
-.exec-table-wrap .side{font-size:.74rem;color:#a9b6cc;text-transform:uppercase;letter-spacing:.14em;font-weight:700}
-.exec-table{width:100%;border-collapse:collapse;font-family:Inter,sans-serif}
-.exec-table thead th{text-align:left;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#8fa1c2;border-bottom:1px solid rgba(255,255,255,.14);padding:14px 12px;font-weight:800}
-.exec-table tbody td{padding:14px 12px;font-size:.94rem;color:#e9eef7;border-bottom:1px solid rgba(255,255,255,.08)}
-.exec-table tbody tr:last-child td{border-bottom:none}
-.exec-table .cn{font-weight:700;color:#fff}
-.exec-table .bl{color:#ff5e6b;font-weight:700;text-align:right}
-.exec-table .rs{color:#4bdba1;font-weight:700;text-align:right}
-.exec-table .rd{font-family:"Playfair Display",serif;font-size:1.1rem;font-weight:700;color:var(--gold);text-align:right}
-.exec-agg{margin-top:18px;padding:18px 20px;background:rgba(232,184,74,.1);border:1px solid rgba(232,184,74,.28);border-radius:10px;color:#e9eef7;font-size:.95rem;font-weight:600}
-.exec-agg strong{color:var(--gold);font-family:"Playfair Display",serif;font-weight:700}
-
-section.painel{background:var(--fog)}
-.painel-narr{max-width:900px;color:#3a4a63;font-size:1.02rem;line-height:1.65}
-.blueprint{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:var(--shadow);margin-top:40px}
-.bp-head{margin-bottom:20px}
-.bp-head .lbl-head{text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;color:var(--coral)}
-.bp-head h3{margin-top:6px;font-size:1.15rem}
-.bp-head .sub{color:var(--muted);font-size:.88rem;margin-top:4px}
-.bp-caption{margin-top:16px;font-size:.82rem;color:var(--muted);font-style:italic;line-height:1.5;text-align:center;padding-top:14px;border-top:1px dashed var(--line)}
-
-.arch-frame{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:var(--shadow);margin-top:32px}
-.arch-frame img{border-radius:8px}
-.arch-caption{margin-top:14px;font-size:.82rem;color:var(--muted);font-style:italic;line-height:1.5}
-
-section.aderencia{background:var(--navy);color:#e9eef7}
-.aderencia-tbl{width:100%;border-collapse:collapse;font-family:Inter,sans-serif;margin-top:8px}
-.aderencia-tbl thead th{text-align:left;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(255,255,255,.18);padding:16px 12px;font-weight:800}
-.aderencia-tbl tbody td{padding:22px 12px;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top}
-.aderencia-tbl tbody tr:last-child td{border-bottom:none}
-.aderencia-tbl .num{color:var(--coral);font-family:"Playfair Display",serif;font-weight:700;font-size:1.15rem;width:56px}
-.aderencia-tbl .tema{font-weight:800;color:#fff;font-size:1.02rem;letter-spacing:-.01em;width:34%}
-.aderencia-tbl .evid{color:#cfd7e6;font-size:.95rem;line-height:1.55}
-
-section.swot{background:#fff}
-.swot-wrap{position:relative;margin-top:16px}
-.swot-axes{position:relative;padding:36px 0 36px 60px}
-.swot-axis-x{position:absolute;top:-8px;left:60px;right:0;display:flex;justify-content:space-between;text-transform:uppercase;letter-spacing:.22em;font-size:.66rem;font-weight:800;color:var(--muted)}
-.swot-axis-y{position:absolute;left:0;top:36px;bottom:36px;display:flex;flex-direction:column;justify-content:space-between;writing-mode:vertical-rl;transform:rotate(180deg);text-transform:uppercase;letter-spacing:.22em;font-size:.66rem;font-weight:800;color:var(--muted)}
-.swot-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;background:var(--navy);border:2px solid var(--navy);border-radius:14px;overflow:hidden}
-.q{position:relative;padding:34px 30px 30px;min-height:280px;background:#fff}
-.q .wm{position:absolute;top:12px;right:22px;font-family:"Playfair Display",serif;font-size:6rem;font-weight:700;line-height:1;opacity:.08;user-select:none}
-.q .qtag{text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;font-weight:800;color:var(--muted);margin-bottom:4px}
-.q h3.qtitle{font-size:1.35rem;margin-bottom:16px;letter-spacing:-.01em}
-.q ul{list-style:none}
-.q ul li{position:relative;padding-left:18px;margin-bottom:10px;font-size:.95rem;line-height:1.5;color:#3a4a63}
-.q ul li::before{content:"";position:absolute;left:0;top:.7em;width:8px;height:2px;background:currentColor}
-.q.s{background:linear-gradient(180deg,#e6f8f0 0%,#fff 60%)}
-.q.s .wm{color:var(--green)} .q.s h3.qtitle{color:#0f7a54} .q.s ul li{color:#26523f}
-.q.w{background:linear-gradient(180deg,#fdf5e0 0%,#fff 60%)}
-.q.w .wm{color:var(--gold)} .q.w h3.qtitle{color:#8a6612} .q.w ul li{color:#5c4a1e}
-.q.o{background:linear-gradient(180deg,#eaf1fb 0%,#fff 60%)}
-.q.o .wm{color:var(--navy)} .q.o h3.qtitle{color:var(--navy)} .q.o ul li{color:#22375a}
-.q.t{background:linear-gradient(180deg,#fdebee 0%,#fff 60%)}
-.q.t .wm{color:var(--red)} .q.t h3.qtitle{color:#a91d2b} .q.t ul li{color:#67242c}
-
-.radar-panel{border:1px solid var(--line);border-radius:16px;background:#fff;padding:32px;box-shadow:var(--shadow);margin-top:48px}
-.radar-panel .head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:12px;flex-wrap:wrap}
-.radar-panel h3{font-size:1.1rem}
-.radar-panel .sub{color:var(--muted);font-size:.88rem;margin-bottom:20px}
-.radar-panel .side{font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.14em;font-weight:700}
-.chart-legend{display:flex;gap:22px;margin-top:16px;font-size:.8rem;color:var(--muted);justify-content:center}
-.chart-legend .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:8px;vertical-align:middle}
-
-section.bizvalue{background:var(--navy);color:#e9eef7}
-.bv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:36px;margin-top:8px}
-@media(max-width:900px){.bv-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.bv-grid{grid-template-columns:1fr}}
-.bv{padding-top:20px;border-top:2px solid}
-.bv:nth-child(1){border-color:var(--gold)}
-.bv:nth-child(2){border-color:var(--green)}
-.bv:nth-child(3){border-color:var(--coral)}
-.bv:nth-child(4){border-color:#fff}
-.bv .n{font-family:"Playfair Display",serif;font-size:2rem;font-weight:700;color:#fff;line-height:1;margin-bottom:10px}
-.bv .t{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;color:#fff;margin-bottom:10px}
-.bv .d{color:#cfd7e6;font-size:.95rem;line-height:1.55}
-
-section.closing{background:var(--fog)}
-.closing-title{font-family:"Playfair Display",serif;font-size:clamp(2.6rem,5.5vw,4.4rem);font-weight:700;letter-spacing:-.04em;color:var(--navy);line-height:.98}
-.closing-paragraphs{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:44px}
-@media(max-width:820px){.closing-paragraphs{grid-template-columns:1fr}}
-.closing-paragraphs p{font-size:1.02rem;color:#3a4a63;line-height:1.65;padding-top:20px;border-top:2px solid var(--green)}
-.venn-wrap{margin-top:64px;display:flex;justify-content:center}
-
-.pri-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:36px;margin-top:24px}
-@media(max-width:900px){.pri-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){.pri-grid{grid-template-columns:1fr}}
-.pri{padding-top:20px;border-top:2px solid}
-.pri:nth-child(1){border-color:var(--navy)}
-.pri:nth-child(2){border-color:var(--green)}
-.pri:nth-child(3){border-color:var(--coral)}
-.pri:nth-child(4){border-color:var(--gold)}
-.pri .n{font-family:"Playfair Display",serif;font-size:1.6rem;font-weight:700;color:var(--navy);line-height:1;margin-bottom:8px}
-.pri .t{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;color:var(--navy);margin-bottom:8px}
-.pri .d{color:#3a4a63;font-size:.9rem;line-height:1.5}
-
-section.cta-strip{background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 55%,var(--navy-soft) 100%);padding:80px 0;color:#fff;position:relative;overflow:hidden}
-section.cta-strip::before{content:"";position:absolute;inset:0;background:radial-gradient(1000px 400px at 100% 0%,rgba(33,198,133,.14),transparent 60%),radial-gradient(700px 300px at 0% 100%,rgba(208,74,2,.15),transparent 60%);pointer-events:none}
-.cta-strip .inner{position:relative;text-align:center}
-.cta-strip .kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;font-weight:800;margin-bottom:22px}
-.cta-strip h2{font-family:"Playfair Display",serif;font-size:clamp(2rem,4vw,3.2rem);font-weight:700;letter-spacing:-.03em;line-height:1.15;max-width:960px;margin:0 auto;color:#fff}
-.cta-strip .sig{margin-top:36px;font-size:.85rem;color:#a9b6cc;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
-.cta-strip .sig .dot{color:var(--green);margin:0 8px}
-
-footer{background:var(--navy-deep);color:#c9d3e2;padding:64px 0 40px}
-footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:44px}
-@media(max-width:820px){footer .cols{grid-template-columns:1fr}}
-footer h5{color:#fff;text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;font-weight:800;margin-bottom:14px}
-footer p, footer li{font-size:.9rem;line-height:1.6}
-footer ul{list-style:none}
-footer li{margin-bottom:6px}
-footer .mark{margin-top:36px;padding-top:24px;border-top:1px solid rgba(255,255,255,.08);color:#8fa1c2;font-size:.78rem;letter-spacing:.06em;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-footer .edu-footer{margin-top:14px;padding-top:14px;border-top:1px dashed rgba(255,255,255,.12);font-size:.82rem;color:#8fa1c2;line-height:1.5}
-footer .edu-footer strong{color:var(--green);text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;font-weight:800;display:block;margin-bottom:4px}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
 
 <header class="top">
   <div class="inner">
     <div class="brand"><span class="brand-dots"><i></i><i></i><i></i></span>Carol Ciciliato</div>
-    <nav class="menu">
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#trajetoria"><span class="num">01</span>Trajetória</a>
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#aderencia"><span class="num">02</span>Aderência</a>
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#cases"><span class="num">03</span>Cases</a>
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#painel"><span class="num">04</span>Painel do Candidato</a>
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#swot"><span class="num">05</span>SWOT</a>
-      <a href="file:///C:/Users/cciciliato001/OneDrive%20-%20PwC/back%20uo%2016.09.26/Carol_Ciciliato_Apresentacao_.html#futuro"><span class="num">06</span>Próximo capítulo</a>
+    <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu de navegação"><span aria-hidden="true">☰</span><span>Menu</span></button>
+    <nav class="menu" id="primary-navigation" aria-label="Navegação principal">
+      <a href="#cap01"><span class="num">01</span>Trajetória</a>
+      <a href="#aderencia"><span class="num">02</span>Aderência</a>
+      <a href="#cases"><span class="num">03</span>Cases</a>
+      <a href="#painel"><span class="num">04</span>Plataforma Digital de Onboarding</a>
+      <a href="#swot"><span class="num">05</span>SWOT</a>
+      <a href="#futuro"><span class="num">06</span>Próximo capítulo</a>
     </nav>
   </div>
 </header>
@@ -496,7 +218,7 @@ IRL · FORM · ITA · DADOS · AML · PwC
       </div>
       <div class="lbl">Aprendizado desta fase</div>
       <p class="quote">Desenvolvi uma visão estruturada de risco, compliance e controles.</p>
-      <div class="bridge">Depois assumi uma posição na PwC.</div>
+      <div class="bridge">Depois, assumi uma posição em uma consultoria global.</div>
     </div>
   </div>
 </section>
@@ -504,7 +226,7 @@ IRL · FORM · ITA · DADOS · AML · PwC
 <section id="cases" class="chapter dark">
   <div class="container">
     <div class="ch-head"><div class="ch-badge"><span class="cap">CAP.</span><span class="n">06</span></div><div><div class="ch-eyebrow">
-2023 • PwC BRASIL
+2023 • CONSULTORIA GLOBAL
 </div>
 
 <div style="font-size:18px;color:#D04A02;margin:14px 0 22px 0">
@@ -516,20 +238,20 @@ IRL · FORM · ITA · DADOS · AML · PwC
 </div><h2 class="ch-title">Atuação integrada</h2></div></div>
     <div class="ch-body" style="max-width:none">
       <div class="lbl">O que aconteceu</div>
-      <p class="aconteceu">Atuo em projetos de RH, Dados e Eficiência Operacional na PwC Brasil. Lidero projetos de destaque em automação inteligente e desenvolvimento de interfaces internas.</p>
+      <p class="aconteceu">Atuo em projetos de Recursos Humanos, Dados e Eficiência Operacional em uma consultoria global. Lidero iniciativas de automação inteligente e desenvolvimento de soluções digitais.</p>
       <div class="chips-block dark" style="margin-top:36px">
         <div class="lbl-head">Habilidade de automação formada nesta fase</div>
         <div class="chips">
           <span class="chip nv">Alteryx</span><span class="chip nv">Azure DevOps</span><span class="chip nv">Power BI</span><span class="chip nv">Google Apps Script</span>
           <span class="chip gr">Automação de processos</span><span class="chip gr">Business Process Optimization</span><span class="chip gr">Google Sites</span>
-          <span class="chip co">Desenvolvimento de interfaces internas</span><span class="chip co">Reconhecimento Digital Lab (2023)</span>
+          <span class="chip co">Desenvolvimento de interfaces digitais</span><span class="chip co">Impacto mensurável em eficiência operacional</span>
         </div>
       </div>
       <div class="cases-grid">
         <div class="case-card">
           <div class="cat">Case 01 · Governança</div>
-          <h3>BLM · Acervo de Treinamento</h3>
-          <div class="desc">Automação com desenvolvimento de interface em Google Apps Script. Reconhecimento Digital Lab</div>
+          <h3>Gestão Integrada de Governança e Treinamento</h3>
+          <div class="desc">Automação de processos e desenvolvimento de interface digital para apoiar governança e treinamento.</div>
           <svg viewBox="0 0 260 82" xmlns="http://www.w3.org/2000/svg" style="margin-top:4px">
             <text x="4" y="14" font-family="Inter" font-size="9" font-weight="800" fill="#8fa1c2" letter-spacing="1.5">ANTES · 32H</text>
             <rect x="4" y="20" width="252" height="12" rx="3" fill="#E63946"></rect>
@@ -544,8 +266,8 @@ IRL · FORM · ITA · DADOS · AML · PwC
         </div>
         <div class="case-card">
           <div class="cat">Case 02 · Integridade de dados</div>
-          <h3>FPW × Workday</h3>
-          <div class="desc">Validação automatizada entre sistemas · ~70 campos críticos.</div>
+          <h3>Integração &amp; Validação Automática entre Sistemas de RH/Payroll</h3>
+          <div class="desc">Validação automatizada de dados entre sistemas de recursos humanos e folha de pagamento · ~70 campos críticos.</div>
           <svg viewBox="0 0 260 82" xmlns="http://www.w3.org/2000/svg" style="margin-top:4px">
             <text x="4" y="14" font-family="Inter" font-size="9" font-weight="800" fill="#8fa1c2" letter-spacing="1.5">ANTES · 8H</text>
             <rect x="4" y="20" width="252" height="12" rx="3" fill="#E63946"></rect>
@@ -560,7 +282,7 @@ IRL · FORM · ITA · DADOS · AML · PwC
         </div>
         <div class="case-card">
           <div class="cat">Case 03 · Regras de negócio</div>
-          <h3>Incentivos · Elegibilidade</h3>
+          <h3>Motor de Regras para Elegibilidade de Benefícios/Incentivos</h3>
           <div class="desc">Automação de regras de elegibilidade · 236 profissionais analisados.</div>
           <svg viewBox="0 0 260 82" xmlns="http://www.w3.org/2000/svg" style="margin-top:4px">
             <text x="4" y="14" font-family="Inter" font-size="9" font-weight="800" fill="#8fa1c2" letter-spacing="1.5">ANTES · 59H</text>
@@ -584,8 +306,8 @@ IRL · FORM · ITA · DADOS · AML · PwC
 
 <section id="painel" class="painel">
   <div class="container">
-    <div class="section-head"><div class="left"><div class="kicker">Projeto atual</div><h2 class="section-title">Painel do Candidato </h2><div class="sub">Portal digital de onboarding do CSC — desenvolvimento web + orquestração de fluxos + IA + modelagem de dados em uma solução integrada.</div></div></div>
-    <p class="painel-narr">Idealizei, arquitetei e venho desenvolvendo um portal digital de onboarding para o CSC. O projeto transforma um processo manual e descentralizado em uma jornada digital integrada, combinando desenvolvimento de portal web, orquestração de fluxos, modelagem de dados e aplicação de IA em uma solução única.</p>
+    <div class="section-head"><div class="left"><div class="kicker">Solução em destaque</div><h2 class="section-title">Plataforma Digital de Onboarding</h2><div class="sub">Portal web responsivo, automação de fluxos, integração de dados e inteligência artificial em uma solução integrada.</div></div></div>
+    <p class="painel-narr">Concebida para transformar processos manuais e descentralizados em uma jornada digital integrada, a solução combina desenvolvimento de portal web responsivo, orquestração de fluxos, modelagem de dados e aplicação de inteligência artificial.</p>
     <div style="
 margin-top:50px;
 background:#ffffff;
@@ -602,10 +324,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
     font-weight:800;
     color:#D04A02;
     margin-bottom:20px;">
-        STATUS DO PROJETO
+        METODOLOGIA / ARQUITETURA DE ENTREGA DA SOLUÇÃO
     </div>
 
-    <table style="
+    <div class="project-table-wrap">
+<table style="
     width:100%;
     border-collapse:collapse;
     font-family:Inter,sans-serif;
@@ -629,13 +352,6 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
                 Entregáveis / Milestones
                 </th>
 
-                <th style="
-                padding:14px;
-                text-align:left;
-                border:1px solid #D8DDE6;">
-                Status Atual
-                </th>
-
             </tr>
 
         </thead>
@@ -646,19 +362,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
                     <strong>Fase 1</strong><br>
-                    Planejamento
+                    Diagnóstico e Arquitetura
                 </td>
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Levantamento de requisitos, definição da arquitetura da solução e modelagem dos dados.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#21C685;
-                font-weight:700;">
-                    Concluído
+                    Diagnóstico dos processos, levantamento de requisitos e definição da arquitetura escalável da solução.
                 </td>
 
             </tr>
@@ -667,19 +375,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
                     <strong>Fase 2</strong><br>
-                    Desenvolvimento
+                    Desenvolvimento da Plataforma e Integrações
                 </td>
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Desenvolvimento do portal do candidato (Power Pages), front-end, base Dataverse, Power Apps e automações.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#D04A02;
-                font-weight:700;">
-                    Em andamento
+                    Desenvolvimento do portal web responsivo, modelagem de dados, integrações entre sistemas e automação de fluxos.
                 </td>
 
             </tr>
@@ -688,18 +388,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
                     <strong>Fase 3</strong><br>
-                    Testes
+                    Validação Técnica e Testes
                 </td>
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Testes técnicos, validação com o time de Admissão e alinhamento com TI.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#667085;">
-                    Planejado
+                    Testes técnicos, validação funcional, qualidade dos dados e verificação dos fluxos integrados.
                 </td>
 
             </tr>
@@ -708,18 +401,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
                     <strong>Fase 4</strong><br>
-                    Implantação
+                    Implantação e Governança
                 </td>
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Publicação da solução, definição de acessos, comunicação e treinamento dos usuários.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#667085;">
-                    Planejado
+                    Publicação da solução, gestão de acessos, documentação, governança e capacitação dos usuários.
                 </td>
 
             </tr>
@@ -728,38 +414,11 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
                     <strong>Fase 5</strong><br>
-                    Monitoramento
+                    Monitoramento e IA Continuada
                 </td>
 
                 <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Acompanhamento dos indicadores, estabilização da solução e suporte inicial.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#667085;">
-                    Planejado
-                </td>
-
-            </tr>
-
-            <tr>
-
-                <td style="padding:14px;border:1px solid #D8DDE6;">
-                    <strong>Fase 6</strong><br>
-                    Evolução
-                </td>
-
-                <td style="padding:14px;border:1px solid #D8DDE6;">
-                    Inclusão de novos documentos, evolução dos modelos de IA e integrações adicionais.
-                </td>
-
-                <td style="
-                padding:14px;
-                border:1px solid #D8DDE6;
-                color:#667085;">
-                    Planejado
+                    Acompanhamento de indicadores, melhoria contínua da solução e evolução dos modelos de IA.
                 </td>
 
             </tr>
@@ -767,6 +426,7 @@ box-shadow:0 12px 32px rgba(10,37,64,.06);
         </tbody>
 
     </table>
+    </div>
 
 </div>
 
@@ -781,12 +441,14 @@ line-height:1.6;
 color:#0A2540;
 ">
 
-<strong>Status atual do projeto</strong><br><br>
+<strong>Arquitetura da solução</strong><br><br>
 
-Arquitetura, modelagem de dados e definição dos requisitos concluídas.
-O portal encontra-se atualmente na fase de desenvolvimento da experiência do candidato, integração com Dataverse e construção das automações da solução.
+Solução concebida sob arquitetura escalável, combinando portal web responsivo, modelagem de dados no Dataverse, automação de fluxos e integração com modelos de IA Generativa para otimização de jornadas de onboarding de ponta a ponta.
 
 </div>
+
+</div>
+</section>
 
 <section id="swot" class="swot">
   <div class="container">
@@ -894,20 +556,17 @@ O portal encontra-se atualmente na fase de desenvolvimento da experiência do ca
     <table class="aderencia-tbl">
       <thead><tr><th></th><th>Tema</th><th>Evidência prática</th></tr></thead>
       <tbody>
-        <tr><td class="num">01</td><td class="tema">Transformação digital</td><td class="evid">Painel do Candidato + automações no CSC</td></tr>
+        <tr><td class="num">01</td><td class="tema">Transformação digital</td><td class="evid">Plataforma Digital de Onboarding + automação de processos</td></tr>
         <tr><td class="num">02</td><td class="tema">Data &amp; Analytics</td><td class="evid">Prevenção à fraude, AML, dashboards, Power BI, análise de grandes volumes</td></tr>
         <tr><td class="num">03</td><td class="tema">Hyperautomation</td><td class="evid">Power Platform, Power Automate, Alteryx, automações operacionais integradas</td></tr>
         <tr><td class="num">04</td><td class="tema">Process optimization</td><td class="evid">Redesenho de processos manuais e redução de esforço operacional em escala</td></tr>
-        <tr><td class="num">05</td><td class="tema">IA aplicada a processos</td><td class="evid">AI Builder embarcado em fluxos digitais de onboarding</td></tr>
+        <tr><td class="num">05</td><td class="tema">IA aplicada a processos</td><td class="evid">Modelos de IA Generativa integrados a fluxos digitais de onboarding</td></tr>
         <tr><td class="num">06</td><td class="tema">Governança e risco</td><td class="evid">AML, prevenção à fraude, compliance, qualidade da informação</td></tr>
         <tr><td class="num">07</td><td class="tema">Comunicação consultiva</td><td class="evid">Interface com públicos técnicos e não técnicos, escrita executiva em inglês</td></tr>
       </tbody>
     </table>
-  </div>
-</section>
-    
     </div>
-  
+  </div>
 </section>
 
 <section class="cta-strip">
@@ -938,4 +597,5 @@ O portal encontra-se atualmente na fase de desenvolvimento da experiência do ca
 
 
 
+<script src="app.js" defer></script>
 </body></html>
